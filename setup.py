@@ -22,7 +22,7 @@ def get_long_description():
 setup(
     name='flake8-todo',
     version=get_version(),
-    description="TODO notes checker, plugin for flake8",
+    description="TODO notes checker, plugin for flake8",  # noqa
     long_description=get_long_description(),
     keywords='flake8 todo',
     author='Marc Schlaich',
@@ -36,7 +36,7 @@ setup(
     ],
     entry_points={
         'flake8.extension': [
-            'C90 = todo:check_todo_notes',
+            'T10 = todo:check_todo_notes',
         ],
     },
     classifiers=[
