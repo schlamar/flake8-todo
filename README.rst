@@ -28,6 +28,10 @@ available in ``flake8``::
 Changes
 -------
 
+0.2 - 2013-03-26
+````````````````
+* Use unique entry point (previous version conflicted with mccabe)
+
 
 0.1 - 2013-03-26
 ````````````````
