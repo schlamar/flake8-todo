@@ -4,7 +4,7 @@ from __future__ import with_statement
 from setuptools import setup
 
 
-def get_version(fname='todo.py'):
+def get_version(fname='flake8_todo.py'):
     with open(fname) as f:
         for line in f:
             if line.startswith('__version__'):
@@ -29,14 +29,14 @@ setup(
     author_email='marc.schlaich@gmail.com',
     url='https://github.com/schlamar/flake8-todo',
     license='MIT',
-    py_modules=['todo'],
+    py_modules=['flake8_todo'],
     zip_safe=False,
     install_requires=[
         'setuptools',
     ],
     entry_points={
         'flake8.extension': [
-            'T10 = todo:check_todo_notes',
+            'flake8_todo = flake8_todo:check_todo_notes',
         ],
     },
     classifiers=[
