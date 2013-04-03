@@ -31,9 +31,6 @@ setup(
     license='MIT',
     py_modules=['flake8_todo'],
     zip_safe=False,
-    install_requires=[
-        'setuptools',
-    ],
     entry_points={
         'flake8.extension': [
             'flake8_todo = flake8_todo:check_todo_notes',
