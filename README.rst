@@ -28,6 +28,11 @@ available in ``flake8``::
 Changes
 -------
 
+0.3 - 2013-04-03
+````````````````
+* Fixed setup for Python 3.
+
+
 0.2 - 2013-03-26
 ````````````````
 * Use unique entry point (previous version conflicted with mccabe)
