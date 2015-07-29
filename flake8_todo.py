@@ -5,7 +5,7 @@ import re
 
 import pep8
 
-NOTE_REGEX = re.compile(r'(TODO|FIXME)')  # noqa
+NOTE_REGEX = re.compile(r'(TODO|FIXME|XXX)')  # noqa
 
 
 def check_todo_notes(physical_line):
