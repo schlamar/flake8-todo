@@ -28,6 +28,12 @@ available in ``flake8``::
 Changes
 -------
 
+0.4 - 2015-08-06
+````````````````
+
+* Show XXX as TODO entry
+
+
 0.3 - 2013-04-03
 ````````````````
 * Fixed setup for Python 3.
