@@ -30,6 +30,9 @@ setup(
     url='https://github.com/schlamar/flake8-todo',
     license='MIT',
     py_modules=['flake8_todo'],
+    install_requires=[
+        'pycodestyle'
+    ],
     zip_safe=False,
     entry_points={
         'flake8.extension': [

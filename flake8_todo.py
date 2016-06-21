@@ -3,13 +3,13 @@ __version__ = '0.3'
 
 import re
 
-import pep8
+import pycodestyle
 
 NOTE_REGEX = re.compile(r'(TODO|FIXME|XXX)')  # noqa
 
 
 def check_todo_notes(physical_line):
-    if pep8.noqa(physical_line):
+    if pycodestyle.noqa(physical_line):
         return
     match = NOTE_REGEX.search(physical_line)
     if match:
