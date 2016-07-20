@@ -31,7 +31,7 @@ setup(
     license='MIT',
     py_modules=['flake8_todo'],
     install_requires=[
-        'pycodestyle'
+        'pycodestyle >= 2.0.0, < 2.1.0'
     ],
     zip_safe=False,
     entry_points={
