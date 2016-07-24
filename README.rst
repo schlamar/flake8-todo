@@ -28,6 +28,12 @@ available in ``flake8``::
 Changes
 -------
 
+0.5 - 2016-07-24
+````````````````
+
+* Moved from pep8 to pycodestyle
+
+
 0.4 - 2015-08-06
 ````````````````
 
