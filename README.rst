@@ -28,6 +28,12 @@ available in ``flake8``::
 Changes
 -------
 
+0.6 - 2016-08-11
+````````````````
+
+* Fixed entry point for flake8 3.0
+
+
 0.5 - 2016-07-24
 ````````````````
 
