@@ -36,11 +36,11 @@ setup(
     zip_safe=False,
     entry_points={
         'flake8.extension': [
-            'flake8_todo = flake8_todo:check_todo_notes',
+            'T000 = flake8_todo:check_todo_notes',
         ],
     },
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 3 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
