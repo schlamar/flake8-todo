@@ -40,6 +40,7 @@ setup(
         ],
     },
     classifiers=[
+        'Framework :: Flake8',
         'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
