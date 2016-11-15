@@ -28,6 +28,12 @@ available in ``flake8``::
 Changes
 -------
 
+0.7 - 2016-11-15
+````````````````
+
+* Relax dependency pinning
+
+
 0.6 - 2016-08-11
 ````````````````
 
